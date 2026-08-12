@@ -80,6 +80,13 @@ def set_background(image_file):
     color: #222 !important;
     opacity: 1 !important;
 }}
+.stButton > button {{
+    color: white !important;
+}}
+
+.stButton > button p {{
+    color: white !important;
+}}
 
         </style>
         """,
