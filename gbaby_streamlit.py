@@ -69,6 +69,17 @@ def set_background(image_file):
         font-size: 1.6rem !important;
     }}
 }}
+[data-testid="stMarkdownContainer"] {{
+    color: #222 !important;
+}}
+
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3 {{
+    color: #222 !important;
+    opacity: 1 !important;
+}}
 
         </style>
         """,
